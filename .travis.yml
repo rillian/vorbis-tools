@@ -1,5 +1,11 @@
 language: c
 
+addons:
+  apt:
+    packages:
+      - libogg-dev
+      - libvorbis-dev
+
 script:
   - ./autogen.sh
   - ./configure
