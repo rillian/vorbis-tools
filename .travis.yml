@@ -9,4 +9,4 @@ addons:
 script:
   - ./autogen.sh
   - ./configure
-  - make -j2 V=1 distcheck
+  - make -j2 V=1 check
